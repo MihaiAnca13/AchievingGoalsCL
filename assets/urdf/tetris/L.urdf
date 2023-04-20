@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="objectL">
+  <link name="objectL">
+    <visual>
+      <geometry>
+        <mesh filename="package://tetris/meshes/L.obj" scale="0.03 0.03 0.03"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://tetris/meshes/L.obj" scale="0.03 0.03 0.03"/>
+      </geometry>
+    </collision>
+     <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="0.00007083" ixy="0.00007083" ixz="0.0" iyy="0.00017083" iyz="0.0" izz="0.00017083"/>
+    </inertial>
+  </link>
+</robot>
